@@ -1,0 +1,45 @@
+.ccCardRoot {
+  border-radius: 50px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20%;
+  height: 30%;
+  min-height: 300px;
+  max-height: 500px;
+  padding: 20px;
+  margin: 3%;
+  max-width: 400px;
+  min-width: 200px;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+.ccCardImg {
+  border-radius: 50%;
+  border: 5px solid #a2d3ee;
+  width: 150px;
+  height: 150px;
+}
+
+.ccCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ccCardContentMore p {
+  margin-top: 0;
+  font-size: 20px;
+}
+.ccCardButton {
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  align-self: center;
+  background: #3184ad;
+}

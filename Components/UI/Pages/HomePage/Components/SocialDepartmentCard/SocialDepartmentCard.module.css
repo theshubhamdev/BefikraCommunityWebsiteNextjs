@@ -1,0 +1,39 @@
+.sdCardRoot {
+  border: 3px solid #a2d3ee;
+  border-radius: 10px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  min-height: 300px;
+  max-height: 400px;
+  margin: 3%;
+  max-width: 500px;
+  min-width: 350px;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+.circleImg {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.sdCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sdCardContent h1 {
+  font-size: 35px;
+}
+.sdCardContentMore {
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+.sdCardContentMore p {
+  margin: 0;
+  font-size: 20px;
+}

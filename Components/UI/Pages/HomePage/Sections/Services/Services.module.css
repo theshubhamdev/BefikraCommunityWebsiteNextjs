@@ -1,0 +1,113 @@
+.services {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#3184ad),
+    to(#0f60b6)
+  );
+  background: linear-gradient(0deg, #3184ad, #0f60b6);
+  padding-bottom: 80px;
+}
+
+.services .serviceHeader {
+  padding: 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.services .serviceHeader .line {
+  height: 2px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 40px;
+}
+
+.services .serviceHeader h2 {
+  font-size: 68px;
+  color: white;
+}
+
+.services .servicesList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.services .servicesList .serviceRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.services .servicesList .serviceRow .serviceCard {
+  border-radius: 16px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #cfcfcf;
+  margin: 12px;
+  padding: 20px;
+}
+
+.services .servicesList .serviceRow .serviceCard:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.services .servicesList .serviceRow .serviceCard .serviceImage {
+  width: 355px;
+  height: 190px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.services .servicesList .serviceRow .serviceCard p {
+  font-size: 24px;
+  padding: 6px 0;
+  font-weight: bold;
+}
+
+.services .servicesList .serviceRow .serviceCard span {
+  font-size: 18px;
+  padding: 6px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

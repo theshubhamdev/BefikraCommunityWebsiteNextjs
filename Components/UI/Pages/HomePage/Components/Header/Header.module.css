@@ -1,0 +1,25 @@
+.headerRoot {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerRoot h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 110px;
+  /* identical to box height, or 157% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+.headerRoot span {
+  font-weight: 700;
+  color: #3875c2;
+}

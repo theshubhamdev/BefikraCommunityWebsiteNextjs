@@ -1,0 +1,15 @@
+.navLogo {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.navHeading {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 55px;
+  /* identical to box height */
+
+  color: #010000;
+}
