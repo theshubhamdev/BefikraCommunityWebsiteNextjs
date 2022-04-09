@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className={classes.headerRoot}>
       <h1>
-        Using <span>learners</span>
+        Uniting <span>learners</span>
       </h1>
     </div>
   );
